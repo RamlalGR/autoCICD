@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-20T23:17:29 IST" name="Suite" finished-at="2024-05-20T23:18:42 IST" duration-ms="73062">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.placeOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ramlaljava.test.SubmitOrderTest@4d9e68d0]" name="placeOrder" class="ramlaljava.test.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-05-20T23:17:29 IST" name="Error Validation Test" finished-at="2024-05-20T23:17:29 IST" duration-ms="28">
+    </test> <!-- Error Validation Test -->
+    <test started-at="2024-05-20T23:17:29 IST" name="Submit Order Test" finished-at="2024-05-20T23:18:42 IST" duration-ms="73062">
+      <class name="ramlaljava.test.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ramlaljava.test.SubmitOrderTest@4d9e68d0]" started-at="2024-05-20T23:17:29 IST" name="launchApplication" finished-at="2024-05-20T23:17:53 IST" duration-ms="24341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="placeOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ramlaljava.test.SubmitOrderTest@4d9e68d0]" started-at="2024-05-20T23:17:53 IST" name="placeOrder" data-provider="getData" finished-at="2024-05-20T23:18:14 IST" duration-ms="21069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramlal@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ramlalGR7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ramlaljava.test.SubmitOrderTest@4d9e68d0]" started-at="2024-05-20T23:18:14 IST" name="closeBrowser" finished-at="2024-05-20T23:18:14 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ramlaljava.test.SubmitOrderTest@4d9e68d0]" started-at="2024-05-20T23:18:14 IST" name="launchApplication" finished-at="2024-05-20T23:18:23 IST" duration-ms="8620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="placeOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ramlaljava.test.SubmitOrderTest@4d9e68d0]" started-at="2024-05-20T23:18:23 IST" name="placeOrder" data-provider="getData" finished-at="2024-05-20T23:18:40 IST" duration-ms="17417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramlal1@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ramlalGR7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ramlaljava.test.SubmitOrderTest@4d9e68d0]" started-at="2024-05-20T23:18:40 IST" name="closeBrowser" finished-at="2024-05-20T23:18:42 IST" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ramlaljava.test.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
