@@ -21,6 +21,7 @@ public class StandAloneTest {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		//new comments are added
+		//again commments added
 		// launching browser
 		String productName = "ZARA COAT 3";
 		WebDriverManager.chromedriver().setup();
